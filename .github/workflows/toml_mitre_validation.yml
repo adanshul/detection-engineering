@@ -16,5 +16,6 @@ jobs:
           python-version: '3.12.5'
   
       - run: |
+          pip install tomllib
           python development/validation.py
           python development/mitre.py
